@@ -32,7 +32,7 @@ The script depends on the functions held in plots.py in the analysis folder.
 
 
 ## Getting Started
-As the data this project was built on is not distributed, not all of it is directly applicable.
+As the data this project was built on is not distributed, not all of the project is directly applicable.
 Specifically, the visualizations in main.py will not run without the specific database setup it was designed for. It is too hardcoded to general table names and such.
 
 However, you can salvage something from the connection and CRUD modules. 

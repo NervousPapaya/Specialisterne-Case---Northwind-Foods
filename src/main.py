@@ -83,7 +83,7 @@ def main():
     db.connect()
 
     sales_per_country_df = get_sales_per_country(db)
-    #print(sales_per_country_df)
+    print(sales_per_country_df)
     bar_plot_df(sales_per_country_df)
 
     sales_per_product_df = get_sales_per_product(db)
